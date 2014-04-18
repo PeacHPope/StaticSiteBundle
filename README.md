@@ -15,8 +15,7 @@ Add static-site-bundle to your composer.json
     }
 
 Next run a composer update
-
-    $ php composer.phar update peachpope/static-site-bundle
+$ php composer.phar update peachpope/static-site-bundle
 
 ### AppKernel
 
@@ -48,6 +47,7 @@ Accepting defaults:
         folder: ~
 
 Using Acme Bundle
+
     peachpope_static_site:
         bundle: AcmeWebBundle
         folder: Homepage
